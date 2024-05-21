@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="5th project.css">
+    <style>
+        .nav-2{
+            position: absolute;
+            left: 30px;
+            padding: 15px;
+            text-align: center;
+            background-color: azure;
+            width: 850px;
+        }
+        .nav-1{
+            position: absolute;
+            padding: 15px;
+            text-align: center;
+            width: 850px;
+        }
+        
+        nav li a:hover{
+            background-color: pink;
+            color: black;
+            text-decoration: underline;
+            padding: 10px;
+        }
+        
+        .seraj-1{
+            padding: 0px;
+            font-weight: bold;
+            float: left;
+        }
+        .seraj-2{
+            /* padding: 0px; */
+            top: 0px;
+            margin: 0px;
+            row-gap: 20px;
+        }
+        .seraj-4{
+            padding: 0px;
+            font-weight: bold;
+            float: left;
+        }
+        .seraj-3{
+            margin: 0px;
+            row-gap: 20px;
+            float: left;
+        }
+        .ul{
+            margin: 0px;
+            float: right;
+        }
+        .li{
+            margin: 0px;
+            display: inline-block;
+            padding: 5px;
+        }
+        .ul-1{
+            margin: 0px;
+            float: right;
+        }
+        .li-1{
+            margin: 0px;
+            display: inline-block;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .imtiyaz{
+            position: relative;
+            top: 70px;
+            text-align: center;
+            color: rgb(62, 10, 250);
+        }
+        .img{
+            position: absolute;
+            box-shadow: 10px 10px 7px black;
+            height: 300px;
+            
+        }
+        .alldiv{
+            display: flex;
+            text-align: center;
+        }
+        .div-1{
+            margin: 10px;
+            height: 340px;
+            background-color: gray;
+            /* font-size: 20px; */
+            box-shadow: 15px 13px 4px black;
+
+        }
+        .div-2{
+            margin: 10px;
+            width: auto;
+            height: 340px;
+            background-color: gray;
+            /* font-size: 20px; */
+            box-shadow: 15px 13px 4px black;
+
+        }
+        .div-3{
+            margin: 10px;
+            height: 340px;
+            background-color: gray;
+            /* font-size: 20px; */
+            box-shadow: 15px 13px 4px black;
+
+        }
+        .div-4{
+            margin: 10px;
+            height: 340px;
+            background-color: gray;
+            /* font-size: 20px; */
+            box-shadow: 15px 13px 4px black;
+
+
+        }
+        .container-2{
+            position: relative;
+            top: 400px;
+        }
+        @media only screen and (max-width: 555px){
+            *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .imtiyaz{
+            width: auto;
+            font-size: 25px;
+            /* font-weight: bold; */
+        }
+        .img{
+            width: auto;
+        }
+        .nav-1{
+            width: auto;
+            font-size: 20px;
+        }
+        
+        .nav-2{
+            display: none;
+            width: auto;
+        }
+        .alldiv{
+            flex-direction: column;
+            width: auto;
+            
+        }
+        .nav-1{
+            width: auto;
+        }
+        .div-1{
+            font-size: 25px;
+            width: auto;
+            margin-bottom: 25px;
+           
+        }
+        .div-2{
+            font-size: 25px;            
+            width: auto;
+            margin-bottom: 25px;
+        }
+        .div-3{
+            font-size: 25px;            
+            width: auto;
+            margin-bottom: 25px;
+        }
+        .div-4{
+            font-size: 25px;            
+            width: auto;
+            margin-bottom: 25px;
+        }
+        /* a{
+            position: relative;
+            left: 95px;
+        } */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="nav-1">
+        <div class="seraj-4">
+           <h1 class="seraj-3">manu</h1>
+        </div>
+        <ul class="ul-1">
+            <li class="li-1"><a class="a-1" href="#">sign up</a></li>
+            <li class="li-1"><a class="a-1" href="#">login</a></li>
+        </ul>
+    </nav>
+    <nav class="nav-2">
+        <div class="seraj-1">
+           <p class="seraj-2">ALLAN JOHANSON</p>
+           <h4 class="seraj-2">personal life coach</h4>
+        </div>
+        <ul class="ul">
+            <li class="li"><a class="a-1" href="#">home</a></li>
+            <li class="li"><a class="a-1" href="#">about</a></li>
+            <li class="li"><a class="a-1" href="#">services</a></li>
+            <li class="li"><a class="a-1" href="#">portfelo</a></li>
+            <li class="li"><a class="a-1" href="#">page</a></li>
+            <li class="li"><a class="a-1" href="#">contact</a></li>
+            <li class="li"><a class="a-1" href="#">log in</a></li>
+        </ul>
+    </nav>
+    <div class="imtiyaz">
+        <div class="img" style="background-image: url(https://plus.unsplash.com/premium_photo-1670897798400-f91a1db8525b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8fA%3D%3D);">
+            <h1>Creative Solutions</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia quasi maxime unde vel. Non assumenda repudiandae blanditiis. Soluta necessitatibus, dolorum maiores illo eaque earum voluptatem, explicabo nulla architecto blanditiis magnam in quisquam.</p>
+        </div>
+    </div>
+    <div class="container-2">
+        <div class="alldiv">
+            <div class="div-1">
+                <h2 style="text-align: center; margin: 10px;">consulting</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia quasi maxime unde vel. Non assumenda repudiandae blanditiis. Soluta necessitatibus, dolorum maiores illo eaque earum voluptatem, explicabo nulla architecto blanditiis magnam in quisquam.</p>
+            </div>
+            <div class="div-2">
+                <h2 style="text-align: center; margin: 10px;"">developing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia quasi maxime unde vel. Non assumenda repudiandae blanditiis. Soluta necessitatibus, dolorum maiores illo eaque earum voluptatem, explicabo nulla architecto blanditiis magnam in quisquam.</p>
+            </div>
+            <div class="div-3">
+                <h2 style="text-align: center; margin: 10px;"">designing</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia quasi maxime unde vel. Non assumenda repudiandae blanditiis. Soluta necessitatibus, dolorum maiores illo eaque earum voluptatem, explicabo nulla architecto blanditiis magnam in quisquam.</p>
+            </div>
+            <div class="div-4">
+                <h2 style="text-align: center; margin: 10px;"">analysis</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa mollitia quasi maxime unde vel. Non assumenda repudiandae blanditiis. Soluta necessitatibus, dolorum maiores illo eaque earum voluptatem, explicabo nulla architecto blanditiis magnam in quisquam.</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
